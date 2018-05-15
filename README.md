@@ -10,8 +10,8 @@ The lambda function expects these environment variables
 Key  | Required? | Explanation | Example
 ----|-------------|-------- | ---
 scale_to | Yes | How many tasks to scale the service up or down to. | 2
-cluster | Yes | The name of the ECS cluster | MyAwesomeApp
-service | Yes | The name of the service within the ECS Cluster | NiftyWebApiService
+cluster | Yes | The name of the ECS cluster. | MyAwesomeApp
+service | Yes | The name of the service within the ECS Cluster. | NiftyWebApiService
 slack_webhook | No | A slack webhook to post to when the service scales. Leave it blank to skip. | https://hooks.slack.com/services/T....
 
 
